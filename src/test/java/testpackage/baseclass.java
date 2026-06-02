@@ -23,10 +23,10 @@ import pages.loginpage;
 
 public class baseclass 
 {
-	public WebDriver w;
-	dashboard d;
-	checkoutpage c ;
-	loginpage l;
+	public WebDriver w; //null
+	public dashboard d;
+	public checkoutpage c ;
+	public loginpage l;
 
 	@BeforeTest
 	public void launch() throws Exception
